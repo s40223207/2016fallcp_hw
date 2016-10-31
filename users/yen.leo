@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20151212173315.1" a="E"><vh>@settings</vh>
+<v t="leo.20151212173315.1"><vh>@settings</vh>
 <v t="leo.20151212173315.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -166,6 +166,7 @@
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
+<v t="leo.20161024160947.1"><vh>@edit 20161024.md</vh></v>
 </v>
 </v>
 </v>
@@ -300,20 +301,23 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2"># 40223207 計算機程式課程
+<t tx="amd.20161004095719.2"># 40223207 學員的課程簡報
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40223207](https://github.com/s40223207/2016fallcp_hw)
 &lt;/small&gt;
 
 
-[乙班計算機程式課程網誌](https://mdecourse.github.io/2016fallcpb/blog)
+
+[課程網誌](http://s40223207.github.io/2016fallcp_hw/blog)
+
+[課程投影片](http://s40223207.github.io/2016fallcp_hw)
 
 [計算機程式教學影片](https://vimeo.com/user24079973)
 
-[電腦輔助設計室電腦硬體](http://project.mde.tw/blog/yen-dian-nao-fu-zhu-she-ji-shi-dian-nao-pei-zhi.html)
+
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
