@@ -16,7 +16,7 @@ brython(1);
 }
 &lt;/script&gt;
 
-&lt;!-- 利用  Brython 畫一條直線 --&gt;
+&lt;!-- 以下實際利用  Brython 畫一條直線 --&gt;
 
 &lt;canvas id="japanflag1" width="600" height="250"&gt;&lt;/canvas&gt;
 
