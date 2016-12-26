@@ -29,24 +29,36 @@ import random
 #alert("test")
 con1 = document["con"]
 標準答案 = random.randint(1,100)
+你猜的數字 = int(input("請輸入您所猜的整數:")) 
+猜測次數 = 1
+while 標準答案 != 你猜的數字:
+    if 標準答案 &lt; 你猜的數字:
+        print("太大了，再猜一次 :)加油")
+    else:
+        print("太小了，再猜一次 :)加油")
+    你猜的數字 = int(input("請輸入您所猜的整數:"))
+    猜測次數 += 1
+
+print("猜對了！總共猜了", 猜測次數, "次")
 con1 &lt;= str(標準答案)
-'''
+&lt;/script&gt;
+
+&lt;p&gt;'''
 try:
     for i in range(1):
-        #con1 &lt;= "test" + "&lt;br /&gt;"
+        #con1 &amp;lt;= "test" + "&lt;br /&gt;"
         yourInput=int(input("請輸入一個整數!!!"))
-        #con1 &lt;= "test" + html.BR()
+        #con1 &amp;lt;= "test" + html.BR()
         output = yourInput + 1
-        con1 &lt;= "你輸入的整數加上1之後,為" + str(output) 
+        con1 &amp;lt;= "你輸入的整數加上1之後,為" + str(output) 
 except:
-    con1 &lt;= "請輸入整數!!! "
-'''
-def b1(e):
+    con1 &amp;lt;= "請輸入整數!!! "&lt;/p&gt;
+&lt;p&gt;def b1(e):
     alert("click")
 document["b1"].bind("click", b1)
 &lt;/script&gt;
-
-&lt;p&gt;&lt;button id="b1"&gt;玩猜數字遊戲&lt;/button&gt;&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>W14 Brython 繪圖範例</title><link href="./w14-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-12-12T14:05:00+08:00</published><updated>2016-12-12T14:05:00+08:00</updated><author><name>40223207</name></author><id>tag:,2016-12-12:./w14-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;14 週開始練習&lt;/p&gt;
+&lt;button id="b1"&gt;玩猜數字遊戲&lt;/button&gt;
+'''&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>W14 Brython 繪圖範例</title><link href="./w14-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-12-12T14:05:00+08:00</published><updated>2016-12-12T14:05:00+08:00</updated><author><name>40223207</name></author><id>tag:,2016-12-12:./w14-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;14 週開始練習&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
