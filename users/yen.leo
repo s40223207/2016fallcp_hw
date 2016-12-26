@@ -171,6 +171,7 @@
 <v t="leo.20161114160059.1"><vh>@edit 20161114.md</vh></v>
 <v t="leo.20161128140248.1"><vh>@edit 20161128.md</vh></v>
 <v t="leo.20161212141623.1"><vh>@edit 20161212.md</vh></v>
+<v t="leo.20161226134902.1"><vh>@edit 20161226.md</vh></v>
 </v>
 </v>
 </v>
@@ -190,6 +191,12 @@
 <v t="yen.20161105200145.1" a="E"><vh>分組名單</vh>
 <v t="yen.20161105200154.1"><vh>@edit agroup.txt</vh></v>
 <v t="yen.20161105200234.1"><vh>@edit bgroup.txt</vh></v>
+</v>
+<v t="leo.20161226134857.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161226134857.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161226134857.4"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161226134857.5"><vh>new:封面投影片內容</vh></v>
+</v>
 </v>
 </vnodes>
 <tnodes>
@@ -319,7 +326,7 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [s40223207](https://github.com/s40223207/2016fallcp_hw)
 &lt;/small&gt;
 
 [blog](blog/index.html)
@@ -531,12 +538,49 @@ def domake():
                                    certfile='localhost.crt',
                                    keyfile='localhost.key',
                                    ssl_version=ssl.PROTOCOL_TLSv1)
-    print("7443 https server started")
+    print("6443 https server started")
     httpd.serve_forever()
 
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
+<t tx="leo.20161226134857.2"></t>
+<t tx="leo.20161226134857.3">(uncached) amd.20161004095719.2
+Diff...
+  # 2016Fall 計算機程式課程
+  
+  ### 虎科大機械設計工程系
+  
+  &lt;small&gt;
+- Created by [s40223207](https://github.com/s40223207/2016fallcp_hw)
++ Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+  &lt;/small&gt;
+  
+  [blog](blog/index.html)
+  
+</t>
+<t tx="leo.20161226134857.4"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+
+</t>
+<t tx="leo.20161226134857.5"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [s40223207](https://github.com/s40223207/2016fallcp_hw)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+
+</t>
 <t tx="yen.20161011114704.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -608,7 +652,8 @@ make.start()</t>
 </t>
 <t tx="yen.20161011122932.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011122957.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -664,7 +709,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011125115.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011125115.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -682,7 +728,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011143808.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011143808.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -731,7 +778,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011145156.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011145156.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -982,7 +1030,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161016012809.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161016012809.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1060,7 +1109,8 @@ make.start()
 * 上課筆記與心得寫在個人的 2016fallcp_hw 倉儲 Wiki 中
 * 利用 [ShareX](https://getsharex.com/) 錄製上課操作練習影片
 * 將影片加上說明字幕後, 上傳至個人 [Vimeo](https://vimeo.com/) 與 [Youtube](https://www.youtube.com)
-* 每週更新個人與分組的 Github Pages 投影片與網誌</t>
+* 每週更新個人與分組的 Github Pages 投影片與網誌
+</t>
 <t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
